@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #logo {
+            max-width: 100px; /* Adjust as needed */
+            height: auto;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            margin: 0 15px;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            display: block;
+            padding: 10px 15px;
+        }
+
+        /* Submenu Styles */
+        ul.sub-menu {
+            display: none;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            background-color: #555;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        li:hover ul.sub-menu {
+            display: block;
+        }
+
+        ul.sub-menu li {
+            display: block;
+            width: 150px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="oceanhealth/image/OIP.jpeg" alt="Logo">
+        <h1>ocean health index</h1> 
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">GLOBAL SCORES</a></li>
+            <li>
+                <a href="#">GLOBAL SCORES</a>
+                <ul class="sub-menu">
+                    <li><a href="#">scores by county </a></li>
+                    <li><a href="#">scores by goal</a></li>
+                    
+                    <li><a href="#">data download</a></li>
+                </ul>
+                
+            </li>
+            <li><a href="#">METHODOLOGY</a></li>
+            <li><a href="#">methods overview</a></li>
+            <li><a href="#"> goals</a></li>
+            <li><a href="#">pressure description</a></li>
+            <li><a href="#">resilience desccription </a></li>
+             <li><a href="#">deep drive</a></li>
+
+        </ul>
+        <li><a href="#">OHI</a></li>
+            <li><a href="#">what is OHI</a></li>
+            <li><a href="#"> regional assessment</a></li>
+            <li><a href="#">conduct an ohi+</a></li>
+            
+
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">what is ohi</a></li>
+            <li><a href="#"> new</a></li>
+            <li><a href="#">ohi fellows</a></li>
+            <li><a href="#">people</a></li>
+            <li><a href="#">publication</a></li>
+            <li><a href="#"> supporters</a></li>
+            <li><a href="#">contact</a></li>
+
+
+            
+    </nav>
+
+
+
+</body>
+</html>
 
