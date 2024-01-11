@@ -26,30 +26,18 @@
             height: 120px;
             width: 120px;
         }
-          body {
-            display: flex;
-           flex-direction: column;
-            margin: 50;
-            padding: 30;
-            font-family: 'Arial', sans-serif;
-            background-image: url('bg-home.hpeg.jpeg');
-
-            background-size: cover;
-            background-position: left center;
-            background-repeat:no-repeat;
-            background-attachment: fixed;
-            background-position: 50% 0;
-           background-position-x: 50%;
-           background-position-y: 0px;
-          background-repeat: no-repeat;
-          background-size: cover;
-            height: 30%;
-            float: right;
-            padding-top: 10rem;
-            color: #fff;
-          
-          background-color: rgba(14,33,70,.85)
-          }
+        body {
+  display: flex;
+  flex-direction: column;
+  margin: 50px; /* Added 'px' to the margin value */
+  padding: 30px;
+  height: 308vh; /* Adjusted '50%' to '50vh' (viewport height) */
+  font-family: 'Arial', sans-serif;
+  background-image: url('bg-home.hpeg.jpeg');
+  background-size: cover; /* Added to ensure the background image covers the entire body */
+  background-position: center center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background image repetition */
+}
 
 
         
@@ -388,6 +376,54 @@ nav ul li a:focus {
       height: 15%; 
       margin: 20px;
     }
+    /* Custom styles for the card layout */
+.container {
+    padding: 20px;
+}
+
+.card-deck {
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 18rem;
+    margin: 0 10px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card-deck:last-child {
+    margin-bottom: 0;
+}
+
+.card-deck:not(:last-child) {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-deck:not(:first-child) {
+    margin-top: 30px;
+}
+
+/* Custom styles for the card content */
+.card-block {
+    padding: 20px;
+    height:0px;
+  font-weight:0px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+}
+
+.card-text {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+
+}
+
   
 
 /* Responsive Styles */
@@ -403,29 +439,7 @@ nav ul li a:focus {
 }
 
 
-.card {
-  transition: transform 0.3s;
-}
 
-.card:hover {
-  transform: translateY(-5px); /* Add a slight lift on hover */
-}
-
-.card:hover .card-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card:hover button {
-  margin-top: 10px; /* Adjust as needed */
-}
-
-.card-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 body {
   margin: 0;
@@ -477,6 +491,12 @@ footer p span {
 footer p span:hover {
       color: #266c97; /* Change the hover color to suit your design */
     }
+    .index-header__link {
+    /* Add your styles for the view all news link on the right */
+    float: right; /* Align link to the right */
+    font-size: x-large;
+    text-emphasis-color: black;
+}
 
 
 
@@ -571,6 +591,7 @@ footer p span:hover {
       <br><br>  
       <button>global score</button>
       <button>methodology</button>
+      <div><img src="cc.png" class style width="200px" height="150px"   margin-left="50px"  > </div>
     
   </div>
 
@@ -580,6 +601,26 @@ footer p span:hover {
       <br><br>
       <button>learn more</button>
       <button>conduct an assessment</button>
+
+      </div>
+      
+  </div>
+</div>
+
+      <div class="section-separator"></div>
+<section class style="text-align: left;"index-news>
+    <h2 class="news-heading">NEWS</h2>
+    <div class="news-content">
+         
+    </div>
+</section>
+<header class="index-header">
+    <h2 class="index-header__title">
+        
+        
+    </h2>
+    <a href="#" class="index-header__link">view all news</a>
+</header>
 
       
       
